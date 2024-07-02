@@ -17,4 +17,8 @@ header_subheadline: "<b>Nutrition</b> Coach & <b>Chef</b> Consultant"
 # Weight (i. e. position in menu): none = no menu entry, first = add as first entry, last = ad as last entry
 nav_to_top_title: "Return To Top"
 nav_to_top_weight: last
+
+# Add site name in navigation menu. Flag true to include.
+# Style using ".blog-nav-title" class in custom_head.html
+#nav_include_title: true
 ---

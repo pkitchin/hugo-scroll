@@ -84,6 +84,11 @@
 <main class="content" role="main">
     <!-- Render sticky left navigation menu -->
     <div class='fixed-nav'>
+        <!-- optional: show site title in navigation menu -->
+        {{ if .Params.nav_include_title }}
+          {{ with .Params.header_headline }}<h4 class="blog-nav-title">{{ . }}</h4>{{ end }}
+        {{ end }}
+
         {{ if eq .Params.nav_to_top_weight "first" }}
             {{ $fnav_title := "Start" }}{{ with .Params.nav_to_top_title }}{{ $fnav_title = . }}{{ end }}
             <a class='fn-item' item_index='{{ 0 }}' href='./#site-head'>{{ $fnav_title | safeHTML }}</a>
