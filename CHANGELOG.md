@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [x.y.z](https://github.com/zjedi/hugo-scroll/compare/v1.0.0...vx.y.z)
 
 ### Added
+* **PK added option for blog title in navigation menu** controlled by "nav_include_title" boolean flag in _index.md; must exist and be true for nav title inclusion. Styling control (e.g. font) using class "blog-nav-title".
+Affected files: _index.md, index.html, theme.scss
 
 ### Changed
 
