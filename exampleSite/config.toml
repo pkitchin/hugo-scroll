@@ -60,7 +60,10 @@ enableEmoji = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
     invertSectionColors = false
-    
+
+    # The first section can be custom colored for seamless transition from header photo
+    #firstSectionCustomColor = true
+
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
     showContactIcons = false

@@ -220,6 +220,16 @@ a.fn-item {
       border-top-color: var(--section-dark-bg-color);
     }
   }
+  
+  &.first {
+    // optional first section to color blend in with background photo 
+     background-color: var(--section-first-bg-color);
+     color: var(--section-first-text-color);
+
+     .post-after {
+        border-top-color: var(--section-first-bg-color);
+     }
+  }
 
   /* The triangular parts between posts */
   .post-after {
